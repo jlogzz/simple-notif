@@ -1,0 +1,27 @@
+body, html{
+  background: #3F7CFF;
+  margin:0;
+  padding:0;
+  color: white;
+}
+
+.gif{
+  display: block;
+  margin: 0 auto;
+}
+
+.row{
+  width: 100%;
+  margin-top: 30px;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  font-size: 32px;
+}
+
+.center-text{
+  text-align: center;
+}

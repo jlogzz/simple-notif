@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Let's play some Ping-Pong!</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="row">
+      <img class="gif" src="./img/pingpong.gif" />
+    </div>
+    <div class="row">
+      <button id="newChallenger">A NEW CHALLENGER APPROACHES!</button>
+    </div>
+    <div class="row">
+      <h1 class="center-text" id="msg" style="display: none;" >CHALLENGE SENT!</h1>
+    </div>
+  </body>
+  <script src="./jquery.js"></script>
+  <script>
+    $(document).ready(function (){
+      $("#newChallenger").click(function (){
+        $("#msg").fadeOut();
+        //alert("It works!");
+        $("#msg").fadeIn();
+      });
+    });
+  </script>
+</html>
